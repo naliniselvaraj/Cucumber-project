@@ -1,0 +1,741 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-07-18T07:36:31.951Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3354462200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "To validate login with valid username and invalid password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 344999900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1741968900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "to launch the chrome browser",
+            "match": {
+              "location": "facebook.to_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188109600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "to enter the valid username in email field",
+            "match": {
+              "location": "facebook.to_enter_the_valid_username_in_email_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email1",
+                  "java@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "email2",
+                  "ccc@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "email3",
+                  "c++@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "email4",
+                  "ipt@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121592400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "to enter the invalid password in the password field",
+            "match": {
+              "location": "facebook.to_enter_the_invalid_password_in_the_password_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "password1",
+                  "password2",
+                  "password3"
+                ]
+              },
+              {
+                "cells": [
+                  "java",
+                  "selenium",
+                  "sql"
+                ]
+              },
+              {
+                "cells": [
+                  "123",
+                  "456",
+                  "789"
+                ]
+              },
+              {
+                "cells": [
+                  "abc",
+                  "def",
+                  "hij"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118042700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "to click the login button",
+            "match": {
+              "location": "facebook.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 632600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "to close the browser",
+            "match": {
+              "location": "facebook.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-18T07:36:37.926Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1299480300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "",
+        "description": "To validate login with invalid username and invalid password",
+        "id": ";;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 282024300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1674312600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "to hit the chrome browser",
+            "match": {
+              "location": "Fbsceneriooutline.to_hit_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123089100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "to enter the invalid username in \"selenium@gmail.com\"email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium@gmail.com\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Fbsceneriooutline.toEnterTheInvalidUsernameInEmailField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141775500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "to enter the invalid password in \"selenium\"password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Fbsceneriooutline.toEnterTheInvalidPasswordInPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101205500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "to click the button login",
+            "match": {
+              "location": "Fbsceneriooutline.toClickTheButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2033300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "to close the chrome browser",
+            "match": {
+              "location": "Fbsceneriooutline.toCloseTheChromeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Feature2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-18T07:36:41.567Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1479422200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "",
+        "description": "To validate login with invalid username and invalid password",
+        "id": ";;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 322357600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1557080500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "to hit the chrome browser",
+            "match": {
+              "location": "Fbsceneriooutline.to_hit_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119351200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "to enter the invalid username in \"java@gmail.com\"email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java@gmail.com\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Fbsceneriooutline.toEnterTheInvalidUsernameInEmailField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121591700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "to enter the invalid password in \"java\"password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Fbsceneriooutline.toEnterTheInvalidPasswordInPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105331100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "to click the button login",
+            "match": {
+              "location": "Fbsceneriooutline.toClickTheButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 437400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "to close the chrome browser",
+            "match": {
+              "location": "Fbsceneriooutline.toCloseTheChromeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Feature2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-18T07:36:45.281Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1586243400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "",
+        "description": "To validate login with invalid username and invalid password",
+        "id": ";;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 321400800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1731713800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "to hit the chrome browser",
+            "match": {
+              "location": "Fbsceneriooutline.to_hit_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 125667400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "to enter the invalid username in \"framework@gmail.com\"email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"framework@gmail.com\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Fbsceneriooutline.toEnterTheInvalidUsernameInEmailField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137007400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "to enter the invalid password in \"framework\"password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"framework\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Fbsceneriooutline.toEnterTheInvalidPasswordInPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89597800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "to click the button login",
+            "match": {
+              "location": "Fbsceneriooutline.toClickTheButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 497200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "to close the chrome browser",
+            "match": {
+              "location": "Fbsceneriooutline.toCloseTheChromeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Feature2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-18T07:36:49.280Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1411474400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "",
+        "description": "To validate login with invalid username and invalid password",
+        "id": ";;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 329485700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1760529300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "to hit the chrome browser",
+            "match": {
+              "location": "Fbsceneriooutline.to_hit_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104825900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "to enter the invalid username in \"sql@gmail.com\"email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sql@gmail.com\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Fbsceneriooutline.toEnterTheInvalidUsernameInEmailField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111092800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "to enter the invalid password in \"sql\"password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sql\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Fbsceneriooutline.toEnterTheInvalidPasswordInPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95159100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "to click the button login",
+            "match": {
+              "location": "Fbsceneriooutline.toClickTheButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 630500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "to close the chrome browser",
+            "match": {
+              "location": "Fbsceneriooutline.toCloseTheChromeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Feature2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-07-18T07:36:53.100Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1362699800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bef()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "",
+        "description": "To validate login with invalid username and invalid password",
+        "id": ";;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 299740700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1865348300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "to hit the chrome browser",
+            "match": {
+              "location": "Fbsceneriooutline.to_hit_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118838500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "to enter the invalid username in \"cucumber@gmail.com\"email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cucumber@gmail.com\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Fbsceneriooutline.toEnterTheInvalidUsernameInEmailField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129279800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "to enter the invalid password in \"cucumber\"password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cucumber\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Fbsceneriooutline.toEnterTheInvalidPasswordInPasswordField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111410400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "to click the button login",
+            "match": {
+              "location": "Fbsceneriooutline.toClickTheButtonLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 927300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "to close the chrome browser",
+            "match": {
+              "location": "Fbsceneriooutline.toCloseTheChromeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@Feature2"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To validate login functionality of facebook application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/LENOVO/eclipse-workspace/cucumber%20project/src/test/resources/featurefiles/fblogin.feature",
+    "tags": [
+      {
+        "name": "@Feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="25.031856">
+    <testcase classname="" name="_2" time="5.969073">
+        <system-out><![CDATA[Given to launch the chrome browser..........................................passed
+When to enter the valid username in email field.............................passed
+And to enter the invalid password in the password field.....................passed
+And to click the login button...............................................passed
+Then to close the browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_3" time="3.639554">
+        <system-out><![CDATA[Given to hit the chrome browser.............................................passed
+When to enter the invalid username in "selenium@gmail.com"email field.......passed
+And to enter the invalid password in "selenium"password field...............passed
+And to click the button login...............................................passed
+Then to close the chrome browser............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_4" time="3.712617">
+        <system-out><![CDATA[Given to hit the chrome browser.............................................passed
+When to enter the invalid username in "java@gmail.com"email field...........passed
+And to enter the invalid password in "java"password field...................passed
+And to click the button login...............................................passed
+Then to close the chrome browser............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_5" time="3.998488">
+        <system-out><![CDATA[Given to hit the chrome browser.............................................passed
+When to enter the invalid username in "framework@gmail.com"email field......passed
+And to enter the invalid password in "framework"password field..............passed
+And to click the button login...............................................passed
+Then to close the chrome browser............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_6" time="3.81894">
+        <system-out><![CDATA[Given to hit the chrome browser.............................................passed
+When to enter the invalid username in "sql@gmail.com"email field............passed
+And to enter the invalid password in "sql"password field....................passed
+And to click the button login...............................................passed
+Then to close the chrome browser............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="_7" time="3.893184">
+        <system-out><![CDATA[Given to hit the chrome browser.............................................passed
+When to enter the invalid username in "cucumber@gmail.com"email field.......passed
+And to enter the invalid password in "cucumber"password field...............passed
+And to click the button login...............................................passed
+Then to close the chrome browser............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
